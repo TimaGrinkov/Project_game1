@@ -1,0 +1,12 @@
+inv = int(input()) # 100
+Mike = int(input()) # 120
+Ivan = int(input()) # 70
+
+if (Mike >= inv) and (Ivan >= inv):
+    print(2)
+elif (Ivan >= inv):
+    print("Ivan")
+elif (Mike >= inv):
+    print("Mike")
+else:
+    print(0)
