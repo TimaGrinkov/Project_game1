@@ -1,8 +1,16 @@
-cash = int(input())
-cost = int(input())
-cassa = int(input())
+# Пример из интернета, пытался разобраться, не получилось.
+word = input("beautiful:")
 
-if cash >= cost and (cash-cost) <= cassa:
-    print("Кола наша")
+vowels = 0
+consonants = 0
+
+for letter in word:
+    if letter in "aeiou":
+        vowels += 1
+    elif letter in "bcdfghjklmnpqrstvwxyz":
+        consonants += 1
 else:
-    print("Сегодня на воде")
+    print(False)
+
+print("Количество гласных букв:", vowels)
+print("Количество согласных букв:", consonants)
