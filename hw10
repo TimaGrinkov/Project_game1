@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+def even_numbers_in_range(A, B):
+    even_numbers = []
+    start = A if A % 2 == 0 else A + 1
+for number in range(start, B + 1, 2):
+    even_numbers.append(number)
+
+result = even_numbers_in_range(A, B)
+print(" ".join(map(str, result)))
