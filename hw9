@@ -1,0 +1,13 @@
+def count_divisors(X):
+    count = 0
+    sqrt_X = int(math.sqrt(X))
+    
+    for i in range(1, sqrt_X + 1):
+        if X % i == 0:
+            count += 1
+        if i != X // i:
+                count += 1
+
+X = int(input())
+result = count_divisors(X)
+print(result)
