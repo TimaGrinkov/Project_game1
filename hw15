@@ -1,0 +1,9 @@
+n1 = [4,6,7,1,2,3]
+n2 = set()
+for i in range(n1):
+    nomber = input()
+    if nomber in n2: 
+        print('YES')
+    else:
+        print('NO')
+
