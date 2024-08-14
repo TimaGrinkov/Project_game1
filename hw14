@@ -1,0 +1,15 @@
+n1 = int(input())
+n2 = []
+for i in range(n1):
+    nomber = input()
+    n2.append(nomber)
+uc1 = set(n2)
+
+n3 = int(input())
+n4 = []
+for i in range(n3):
+    nomber = input()
+    n4.append(nomber)
+uc2 = set(n4)
+
+print(uc1.intersection(uc2))
