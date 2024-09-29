@@ -13,10 +13,11 @@ class Autobus(object):
     def info(self):
             print(f'{self.name}, Скорость: {self.speed}, Пробег: {self.mileage}')
             
-    def seating_capacity(self.capacity):
+    def seating_capacity(self):
             return f"Максимальная вместительность автобуса {self.name}, {self.capacity} пассажиров"
 
 h1 = Autobus("Reno", 120, 54, 50)
 h2 = Autobus("Lada", 100, 20, 20)
 
-h1.seating_capacity()
+h2.info()
+print(h2.seating_capacity())
